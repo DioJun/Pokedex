@@ -7,7 +7,7 @@ pokeApi.getPokemonDetail = (pokemon) => {
 }
 
 // Define a function called fetchPokemon with default parameters
-pokeApi.getPokemons = (offset = 0, limit = 1100) => {
+pokeApi.getPokemons = (offset = 0, limit = 105) => {
     // Construct the URL with the provided offset and limit parameters
     const url = `https://pokeapi.co/api/v2/pokemon?offset${offset}&limit=${limit}`
     // Send a GET request to the constructed URL
