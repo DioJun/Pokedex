@@ -1,24 +1,32 @@
-
 * {
+    /* Set the default font to Roboto, a sans-serif font. */
     font-family: 'Roboto', sans-serif;
+    /* Apply box-sizing to include padding and border in element's total width and height. */
     box-sizing: border-box;
 }
 
 body {
+    /* Set background color */
     background-color: #f6f0fc;
 }
 
+
 .content {
+    /* viewport width and height */
     width: 100vw;
     height: 100vh;
+    /* padding for content */
     padding: 1rem;
+    /* white background */
     background-color: #fff;
 }
 
 .content h1 {
-    margin: 0;
+    /* Removes margin for h1 elements within .content */
+    margin: 0; 
 }
-    
+
+/* Mobile & Tablet: max-width content */
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;

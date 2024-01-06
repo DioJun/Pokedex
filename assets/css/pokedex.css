@@ -55,18 +55,21 @@
     align-items: center;
 }
 
+
+/* Responsividade com telas pequenas */
 @media screen and (min-width: 375px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
 }
 
+/* Responsividade com telas médias */
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
+/* Responsividade com telas 'médias/grandes' */
 @media screen and (min-width: 992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
